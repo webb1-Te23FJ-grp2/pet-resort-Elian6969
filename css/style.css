@@ -1,29 +1,48 @@
-.wrapper{
-    max-width: 1200px;
-    margin: auto;
-    background-color: white;
-   
-      
-}  
-    
-.intro{
-    display: flex;
-    justify-content: start; 
+body {
+  background-color: #eee;
+  box-sizing: border-box;
 }
 
-.container{
-    display: flex;
-  
-    justify-content: space-between;
-    flex-direction: column;
-  
-
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
 }
 
-a{
-    display: block;
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
 }
 
-.intro2{
 
-    }
+
+.intro {
+  display: flex;
+  justify-content: start;
+}
+
+.container {
+  display: flex;
+
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.intro2 {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  display: block;
+  padding: 25px;
+  font-weight: bold;
+  text-decoration: solid;
+  color: black;
+}
+
+.dog {
+  background-image: url("../img/happiest-dog.webp");
+  height: 600px;
+  border-radius: 10px;
+}
